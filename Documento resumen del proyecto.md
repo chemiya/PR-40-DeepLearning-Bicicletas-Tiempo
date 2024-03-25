@@ -58,6 +58,7 @@ predecir</li>
 A continuación, se realiza un breve estudio sobre la variable a predecir que es el número de bicicletas alquiladas en el día contando usuarios casuales y registrados. 
 Esta variable llamada cnt tiene como promedio 4504,34 bicicletas y una desviación típica de 1935,88 bicicletas. A continuación, se puede ver su distribución:
 <img src="grafico variable.png"/>
+<br></br>
 Se puede apreciar como la variable a predecir sigue una especie de distribución normal.
 
 <h3>Modelos seleccionados</h3>
