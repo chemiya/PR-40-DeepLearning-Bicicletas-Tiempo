@@ -129,9 +129,10 @@ A continuación, se detallan los parámetros a optimizar en este modelo junto a 
 <li>LSTM_dim: 2,5,10</li>
 <li>Optimizador: SGD, Adam, RMSprop</li>
 <li>Función de perdida: mean_squared_error, mean_absolute_error, huber_loss</li>
-Este modelo tiene una LSTM como el anterior modelo, se utiliza una historia de 3 para cada 
-ventana y el batch_size es 1. 
+ 
 </ul>
+Este modelo tiene una LSTM como el anterior modelo, se utiliza una historia de 3 para cada 
+ventana y el batch_size es 1.
 
 La tabla con todos los valores sobre el RMSE para las diferentes combinaciones de parámetros se puede encontrar en el Excel adjunto “LSTM_2_resultados.xlsx”. En este Excel se pueden los resultados del RMSE con las 81 combinaciones diferentes de parámetros. Por lo tanto, los mejores valores en los parámetros para este modelo son los siguientes:
 <ul>
@@ -149,9 +150,9 @@ A continuación, se detallan los parámetros a optimizar en este modelo junto a 
 <li>LSTM_dim: 4,8,12</li>
 <li>Optimizador: SGD, Adam, RMSprop</li>
 <li>Batch_size: 16, 32, 64</li>
-Este modelo tiene una historia de 1 con 2 LSTM.
-</ul>
 
+</ul>
+Este modelo tiene una historia de 1 con 2 LSTM.
 La tabla con todos los valores sobre el RMSE para las diferentes combinaciones de parámetros en este modelo se puede encontrar en el Excel adjunto “LSTM_3_resultados.xlsx”. En este Excel se pueden las 81 combinaciones diferentes de los parámetros. Por lo tanto, los mejores valores en los parámetros para este modelo son los siguientes:
 <ul>
 <li>Optimizador: adam</li>
@@ -170,6 +171,7 @@ A continuación, se detallan los parámetros a optimizar en este modelo junto a 
 <li>Función de activación de la salida: sigmoid, relu, tanh, linear</li>
 </ul>
 
+La tabla con todos los valores sobre el RMSE para las diferentes combinaciones de parámetros para este modelo se puede encontrar en el Excel adjunto “LSTM_4_resultados.xlsx”. En este Excel se pueden ver las 108 combinaciones de parámetros.
 Por lo tanto, los mejores valores en los parámetros para este modelo son los siguientes:
 <ul>
 <li>Función de activación en la capa de salida: sigmoid</li>
